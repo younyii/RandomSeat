@@ -14,6 +14,7 @@
 
 ## **주요 기능**     
 
+
  ● 사용자가 인원을 선택하면 랜덤으로 좌석이 배정됨. (진행중 - 85%)
 
  ● 특정 번호가 항상 짝이 될 수 있게 조정할 수 있음. (예정)
@@ -26,10 +27,8 @@
 
  
 
-## **프로그램 실행 화면**     
+## **프로그램 실행 화면**        
 
-![before](https://user-images.githubusercontent.com/73516688/105662243-93e15400-5f12-11eb-82cd-272c595cb82a.png)
-![start](https://user-images.githubusercontent.com/73516688/105662248-95ab1780-5f12-11eb-9055-a34ca1d81726.png)
 <img src="https://user-images.githubusercontent.com/73516688/105662243-93e15400-5f12-11eb-82cd-272c595cb82a.png" width="450px" height="300px" alt="실행전 화면"></img><br/>
 <img src="https://user-images.githubusercontent.com/73516688/105662248-95ab1780-5f12-11eb-9055-a34ca1d81726.png" width="450px" height="300px" alt="실행후 화면"></img><br/>
 
