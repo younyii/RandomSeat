@@ -4,11 +4,11 @@
 
 ## **개발 환경**
 
-### ● Language : HTML , CSS, JAVASCRIPT
+● Language : HTML , CSS, JAVASCRIPT
 
-### ● OS : Windows, Mac OS
+● OS : Windows, Mac OS
 
-### ● IDE : Atom
+● IDE : Atom
 
  
 
@@ -31,3 +31,6 @@
  
 
 
+https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbaUP6e%2FbtqUo9iczt6%2FLF7DQKd6qr14ClW1eOQY20%2Fimg.png
+
+https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F066VS%2FbtqUma9VU4Z%2F9rBtRSDGBuoRIJgJq36UDk%2Fimg.png
