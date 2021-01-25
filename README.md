@@ -28,4 +28,6 @@
 
 ## **프로그램 실행 화면**
 
- 
+![before](https://user-images.githubusercontent.com/73516688/105662243-93e15400-5f12-11eb-82cd-272c595cb82a.png)
+![start](https://user-images.githubusercontent.com/73516688/105662248-95ab1780-5f12-11eb-9055-a34ca1d81726.png)
+
