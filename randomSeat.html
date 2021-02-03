@@ -59,8 +59,9 @@
   ">
     <br>
     <br>
+    <script type="text/javascript" src="makeTable.js"></script>
     <script>
-      var seat = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+      var seat = {};
       var numOfPeople;
 
       function input() {
@@ -91,58 +92,17 @@
         var max = num;
 
         for (i = 0; i < student; i++) {
-            // 1~20까지의 수를 랜덤하게 뽑음
+          // 1~20까지의 수를 랜덤하게 뽑음
           seat[i] = Math.floor(Math.random() * max) + 1;
           //Check the overlap
           for (j = 0; j < i; j++) {
             if (seat[i] == seat[j]) i--;
           }
         }
-        showTable();
-      }
-
-      function showTable() {
-        var line1 =  document.getElementById("line1");
-        var line2 =  document.getElementById("line2");
-        var line3 =  document.getElementById("line3");
-
-        var table1 = "";
-        var table2 = "";
-        var table3 = "";
-
-        table1 += "<table>";
-            for (i = 0; i < 4; i++) {
-              table1 += "<tr>";
-                for (j = 0; j < 2; j++) {
-                  table1 += "<td> " + seat[2 * i + j] + "</td>";
-                }
-                table1 += "</tr>";
-            }
-           table1 += "</table></br>";
-           line1.innerHTML = table1;
-
-
-          table2 += "<table>";
-             for (i = 4; i < 7; i++) {
-                table2 += "<tr>";
-                 for (j = 0; j < 2; j++) {
-                   table2 += "<td> " + seat[2 * i + j] + "</td>";
-                 }
-                 table2 += "</tr>";
-             }
-            table2 += "</table></br>";
-            line2.innerHTML = table2;
-
-            table3 += "<table>";
-               for (i = 7; i < 10; i++) {
-                  table3 += "<tr>";
-                   for (j = 0; j < 2; j++) {
-                     table3 += "<td> " + seat[2 * i + j] + "</td>";
-                   }
-                   table3 += "</tr>";
-               }
-              table3 += "</table></br>";
-              line3.innerHTML = table3;
+        for (i = 0; i < student; i++) {
+          console.log(seat[i]);
+        }
+        makeTable(student, seat);
       }
 
     </script>
